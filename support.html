@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inkbase — Support</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+       max-width:720px;margin:0 auto;padding:32px 20px 80px;line-height:1.7;color:#1a1a1a;background:#fff}
+  h1{font-size:28px;margin-bottom:4px}
+  .meta{color:#888;font-size:14px;margin-bottom:32px}
+  h2{font-size:20px;margin-top:36px;padding-bottom:8px;border-bottom:1px solid #eee}
+  h3{font-size:16px;margin-top:26px;margin-bottom:6px}
+  ul{padding-left:22px} li{margin:6px 0}
+  .highlight{background:#f5f8ff;border-left:4px solid #3A7AFE;padding:14px 18px;border-radius:4px;margin:18px 0}
+  code{background:#f4f4f4;padding:1px 5px;border-radius:3px;font-size:14px}
+  footer{margin-top:60px;padding-top:20px;border-top:1px solid #eee;color:#888;font-size:14px}
+  a{color:#3A7AFE}
+</style>
+</head>
+<body>
+
+<h1>Inkbase — Support</h1>
+<p class="meta">Last updated: 23 November 2026 &nbsp;·&nbsp; <a href="index.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="support-zh.html">中文</a></p>
+
+<div class="highlight">
+Need help? Email <a href="mailto:1272363703@qq.com">1272363703@qq.com</a>.
+Please include your device model, iOS version and a short description of the issue.
+We usually reply within 7 days.
+</div>
+
+<h2>Requirements</h2>
+<ul>
+  <li>iPad or iPhone running iOS / iPadOS 17.0 or later</li>
+  <li>Apple Pencil recommended for handwriting, but not required — a finger works too</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<h3>How do I turn my handwriting into Anki cards?</h3>
+<ol>
+  <li>Write on the canvas.</li>
+  <li>Select the content with the <strong>Lasso</strong> or <strong>Marquee</strong> tool.</li>
+  <li>Tap <strong>Make card</strong> and choose a deck.</li>
+  <li>Mark the regions to hide with the <strong>Cover</strong> tool.</li>
+  <li>Open the Export Center and tap <strong>Anki Package (.apkg)</strong>.</li>
+  <li>Import the file into Anki desktop or AnkiMobile.</li>
+</ol>
+
+<h3>Why does one card produce several notes in Anki?</h3>
+<p>A card with N occlusion regions is exported as 1 + N notes: one full image card plus one note per
+hidden region. This matches Anki's native "Hide One, Guess One" behaviour, so the remaining regions stay
+visible as context while you recall the hidden one.</p>
+
+<h3>Do I need an Anki account or the Anki add-on?</h3>
+<p>No. The exported <code>.apkg</code> is a standard Anki package and imports directly — no plugin needed,
+no account required.</p>
+
+<h3>Where is my data stored?</h3>
+<p>Inside the app sandbox on your device, encrypted with AES-GCM. There is no account, no upload and no
+third-party SDK. See the <a href="index.html">Privacy Policy</a> for details.</p>
+
+<h3>Does it sync between devices?</h3>
+<p>iCloud sync is optional and off by default. When you turn it on, ordinary notebooks sync through your own
+Apple ID. Notebooks marked as <strong>audited</strong> are never uploaded, and audio recordings and original
+PDFs never sync.</p>
+
+<h3>I bought the unlock but it is not active after reinstalling</h3>
+<p>Open <strong>Settings → Purchase → Restore Purchases</strong> and sign in with the same Apple ID used for
+the original purchase. The entitlement unlocks .apkg export, iCloud sync and audited notebooks.</p>
+
+<h3>What does the free version include?</h3>
+<p>Everything except unlimited exports: unlimited notebooks, unlimited handwriting, flashcards and review.
+<code>.apkg</code> export is limited to 3 per month on the free tier.</p>
+
+<h3>I forgot the passcode of an audited notebook</h3>
+<p>The passcode is stored only on your device and cannot be recovered by us. After 5 incorrect attempts,
+each further attempt waits twice as long as the previous one, capped at 15 minutes. If the passcode is lost,
+the notebook's audit trail cannot be continued — export the notebook content from another notebook if you
+still have access to it.</p>
+
+<h3>How do I back up my notes?</h3>
+<p>Use <strong>Export</strong> to save a copy as PDF, image or Anki package. With iCloud sync off, deleting
+the app also deletes its data, so export anything you want to keep.</p>
+
+<h3>Something looks wrong with the drawing</h3>
+<p>Try closing and reopening the note. If the problem repeats, email us with the note's page count, the tool
+you were using and your device model.</p>
+
+<h2>Reporting a problem</h2>
+<p>Please include:</p>
+<ul>
+  <li>Device model and iOS / iPadOS version</li>
+  <li>App version (Settings → About)</li>
+  <li>What you did, what you expected, what happened</li>
+  <li>A screenshot if the issue is visual</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:1272363703@qq.com">1272363703@qq.com</a></p>
+
+<footer>Inkbase · <a href="index.html">Privacy Policy</a> · <a href="support-zh.html">中文</a></footer>
+</body>
+</html>
